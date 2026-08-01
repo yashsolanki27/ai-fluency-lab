@@ -1,26 +1,82 @@
 # AI Fluency Lab
 
-Portfolio project based on Anthropic AI Fluency Framework & Foundations.
+A JavaScript based learning application inspired by:
 
-## Completed Topics
+Anthropic AI Fluency:
+Framework & Foundations
 
-- Introduction to AI Fluency
-- AI Fluency Framework
-- 4D Framework
-- Generative AI
-- Delegation
-- Description
-- Prompting
-- Discernment
-- Diligence
+## Features
+
+✅ AI Fluency Modules
+
+✅ 4D Framework
+
+✅ Generative AI Concepts
+
+✅ Prompt Library
+
+✅ Prompt Search
+
+✅ Interactive Quiz
+
+✅ Score Tracking
+
+✅ Dark Mode
+
+✅ Local Storage Progress
 
 ## Technologies
 
-- HTML
-- CSS
+- HTML5
+
+- CSS3
+
 - JavaScript
+
+- Git
+
 - GitHub
 
-## Version
+## Concepts Practiced
 
-1.0 Released
+### AI Skills
+
+- Delegation
+
+- Description
+
+- Discernment
+
+- Diligence
+
+- Prompt Engineering
+
+### JavaScript Skills
+
+- Variables
+
+- Arrays
+
+- Objects
+
+- Functions
+
+- DOM Manipulation
+
+- Events
+
+- Filter Method
+
+- Local Storage
+
+## Future Improvements
+
+- Connect with AI API
+
+- User login
+
+- Save prompts
+
+- Database storage
+
+- React version

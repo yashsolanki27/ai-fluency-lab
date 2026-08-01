@@ -1,5 +1,4 @@
 <!doctype html>
-
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -16,120 +15,61 @@
       <h1>AI Fluency Lab</h1>
 
       <p>Anthropic AI Fluency: Framework & Foundations</p>
+
+      <button onclick="toggleDarkMode()">🌙 Dark Mode</button>
     </header>
 
-    <section>
-      <h2>Introduction to AI Fluency</h2>
+    <nav>
+      <button onclick="showSection('modules')">Modules</button>
 
-      <p>
-        AI Fluency is the ability to collaborate effectively with AI systems.
-      </p>
+      <button onclick="showSection('prompts')">Prompt Library</button>
+
+      <button onclick="showSection('quiz')">Quiz</button>
+    </nav>
+
+    <section id="modules">
+      <h2>AI Fluency Modules</h2>
+
+      <div id="moduleContainer"></div>
     </section>
 
-    <section>
+    <section id="framework">
       <h2>The 4D Framework</h2>
 
-      <div class="card">
-        <h3>Delegation</h3>
+      <div id="frameworkContainer"></div>
+    </section>
 
-        <p>Deciding what AI should do.</p>
-      </div>
+    <section id="prompts">
+      <h2>Prompt Library</h2>
 
-      <div class="card">
-        <h3>Description</h3>
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Search prompts..."
+        onkeyup="searchPrompts()"
+      />
 
-        <p>Giving AI clear instructions.</p>
-      </div>
+      <div id="promptContainer"></div>
+    </section>
 
-      <div class="card">
-        <h3>Discernment</h3>
+    <section id="quiz">
+      <h2>AI Fluency Quiz</h2>
 
-        <p>Evaluating AI responses.</p>
-      </div>
+      <div id="quizContainer"></div>
 
-      <div class="card">
-        <h3>Diligence</h3>
+      <button onclick="nextQuestion()">Next Question</button>
 
-        <p>Checking AI results.</p>
-      </div>
+      <p id="score"></p>
     </section>
 
     <section>
-      <h2>Generative AI Fundamentals</h2>
+      <h2>Learning Progress</h2>
 
-      <p>
-        Generative AI creates new content based on patterns learned from data.
-      </p>
+      <button onclick="completeLearning()">Mark Completed</button>
 
-      <ul>
-        <li>Text Generation</li>
-
-        <li>Code Generation</li>
-
-        <li>Image Creation</li>
-
-        <li>Summarization</li>
-
-        <li>Problem Solving</li>
-      </ul>
-
-      <h3>Capabilities & Limitations</h3>
-
-      <p>
-        AI can increase productivity but requires human judgement, verification,
-        and responsible usage.
-      </p>
+      <p id="progress"></p>
     </section>
-    <section>
-      <h2>Effective Prompting Techniques</h2>
 
-      <p>
-        Good prompts provide context, instructions, examples, and expected
-        outcomes.
-      </p>
-
-      <h3>Example Prompt</h3>
-
-      <div class="card">
-        <p>
-          You are a JavaScript mentor. Create a 30-day learning roadmap with
-          projects and practice tasks.
-        </p>
-      </div>
-    </section>
-    <section>
-      <h2>Description - Discernment Loop</h2>
-
-      <p>A continuous cycle of improving AI interaction.</p>
-
-      <div class="card">
-        <p>
-          Describe Task ↓ AI Response ↓ Review Output ↓ Improve Instructions ↓
-          Better Result
-        </p>
-      </div>
-    </section>
-    <section>
-      <h2>Discernment Practice</h2>
-
-      <ul>
-        <li>Check accuracy</li>
-
-        <li>Verify information</li>
-
-        <li>Identify hallucinations</li>
-
-        <li>Improve AI responses</li>
-      </ul>
-    </section>
-    <section>
-      <h2>Diligence</h2>
-
-      <p>
-        Responsible AI usage requires validation, testing, documentation, and
-        continuous improvement.
-      </p>
-    </section>
     <footer>
       <p>AI Fluency Lab Version 1.0</p>
     </footer>
