@@ -1,16 +1,26 @@
 # AI Fluency Lab
 
-A portfolio project based on:
+Portfolio project based on Anthropic AI Fluency Framework & Foundations.
 
-Anthropic AI Fluency:
-Framework & Foundations
+## Completed Topics
 
-## Topics Covered
-
+- Introduction to AI Fluency
 - AI Fluency Framework
+- 4D Framework
 - Generative AI
 - Delegation
 - Description
+- Prompting
 - Discernment
 - Diligence
-- Prompt Engineering
+
+## Technologies
+
+- HTML
+- CSS
+- JavaScript
+- GitHub
+
+## Version
+
+1.0 Released
